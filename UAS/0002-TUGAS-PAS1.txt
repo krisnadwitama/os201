@@ -1,0 +1,35 @@
+Script started on Mon 06 Jul 2020 06:45:04 PM WIB
+i.made88@badak:~/REVISI$ PS1="$ "
+$ echo $akunGitHub
+krisnadwitama
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ date
+Mon Jul  6 18:45:20 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200706-184523-571d-REVISI/> echo -e $CEKSAYA
+krisnadwitama krisnadwitama ZCZCSCRIPTSTART 200706-175208
+ krisnadwitama krisnadwitama 200706-175250-99d9-REVISI/ 200706-175250 SEQOK SUMOK 99d9704e
+ krisnadwitama krisnadwitama 200706-175255-23f9-REVISI/ 200706-175255 SEQOK SUMOK 23f9524d
+ krisnadwitama krisnadwitama ZCZCSCRIPTSTOP 200706-175303 SEQOK SUMOK
+
+200706-184527-b25c-REVISI/> echo -e $CEKSEBELA1
+krisnadwitama kurilham19 ZCZCSCRIPTSTART 200607-193421
+ krisnadwitama kurilham19 200607-193617-d91f-kurnia.ilham/ 200607-193617 SEQOK SUMOK d91fd984
+ krisnadwitama kurilham19 200607-193636-c368-kurnia.ilham/ 200607-193636 SEQOK SUMOK c3688b4e
+ krisnadwitama kurilham19 200607-193808-a04f-kurnia.ilham/ 200607-193808 SEQOK SUMOK a04f5501
+ krisnadwitama kurilham19 200607-193821-541d-kurnia.ilham/ 200607-193821 SEQOK SUMOK 541da7bd
+ krisnadwitama kurilham19 ZCZCSCRIPTSTOP 200607-193824 SEQOK SUMOK
+
+200706-184533-5a83-REVISI/> echo -e $CEKSEBELA2
+krisnadwitama Kyosena ZCZCSCRIPTSTART 200609-114245
+ krisnadwitama Kyosena 200609-114306-adac-kyosena.haridza/ 200609-114306 SEQOK SUMOK adaca662
+ krisnadwitama Kyosena 200609-114313-83c5-kyosena.haridza/ 200609-114313 SEQOK SUMOK 83c5829f
+ krisnadwitama Kyosena 200609-114318-5b0c-kyosena.haridza/ 200609-114318 SEQOK SUMOK 5b0ca786
+ krisnadwitama Kyosena 200609-114326-98cc-kyosena.haridza/ 200609-114326 SEQOK SUMOK 98cc8d1a
+ krisnadwitama Kyosena ZCZCSCRIPTSTOP 200609-114328 SEQOK SUMOK
+
+200706-184537-1715-REVISI/> exit
+exit
+
+Script done on Mon 06 Jul 2020 06:45:40 PM WIB
